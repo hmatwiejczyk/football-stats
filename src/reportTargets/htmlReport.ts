@@ -1,5 +1,5 @@
-import { OutputTarget } from "../Summary";
-import fs from "fs";
+import { OutputTarget } from '../Summary';
+import fs from 'fs';
 
 export class HtmlReport implements OutputTarget {
   print(report: string): void {
