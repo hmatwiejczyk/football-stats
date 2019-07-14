@@ -1,0 +1,27 @@
+{
+  "name": "football-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "tsc --init",
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmatwiejczyk/football-stats.git"
+  },
+  "author": "hm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmatwiejczyk/football-stats/issues"
+  },
+  "homepage": "https://github.com/hmatwiejczyk/football-stats#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.3"
+  }
+}
